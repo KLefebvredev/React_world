@@ -1,0 +1,13 @@
+.navigation {
+	ul{
+		display: flex;
+		justify-content: space-around;
+	}
+	li {
+		transition: 0.2s;
+
+		&:hover {
+			color: $black;
+		}
+	}
+}
