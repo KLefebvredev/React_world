@@ -1,0 +1,40 @@
+.radio-container{
+	display: flex;
+	margin-top: 1%;
+	justify-content: center;
+	
+
+	ul{
+	background-color: rgba(245, 245, 245, 0.253);
+	border-radius: 20px;
+	}
+	li{
+		color: white;
+		font-size: 1.2rem;
+		padding: 10px;
+		
+	}
+	input{
+		visibility: hidden;
+		position: relative;
+	}
+	input[type=radio]:checked +label {
+		position: relative;
+		&:after{ 
+			content: "";
+			position: absolute;
+			width: 95%;
+			height: 10px;
+			background-color: rgba(255, 0, 0, 0.301);
+			bottom: 0;
+			left: 54%;
+			transform: translateX(-50%) scaleX(0);
+			animation: anim 1s forwards;
+
+			@keyframes anim {
+				100%{
+					transform: translateX(-50%) scaleX(1);
+				}
+			}
+	}}
+}

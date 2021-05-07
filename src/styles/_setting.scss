@@ -10,6 +10,7 @@ $font1 :"Josefin sans";
 *{
 	padding: 0;
 	margin: 0;
+	overflow-x: hidden;
 }
 
 body{
@@ -29,3 +30,4 @@ button {
 	border-radius: 50px;
 	padding: 10px 20px;
   }
+

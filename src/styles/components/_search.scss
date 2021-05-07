@@ -1,0 +1,18 @@
+.search{
+	display: flex;
+
+	.recherche,span,.range {
+		margin-top: 80px;
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%);
+	}
+	.range{
+		width: 50%;
+		margin-top: 35px;
+	}
+	span{
+		font-size: 2rem;
+		margin-top: 0px;
+	}
+}
